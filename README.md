@@ -6,18 +6,27 @@
 
 - 本项目基于清华大学开源模型chatGLM-6B以及vits框架
 
-  - chatGLM-6B模型为清华大学开源，使用时请注意查看对应的使用需知，
+  - chatGLM-6B模型为清华大学开源，使用时请注意查看对应的使用需知，严格遵守使用规定
 
-  - vits模型下载地址：
+    - 模型下载链接
+    - 模型下载后请将模型及响应的文件放置在./chatglm-model路径下
 
-    [模型连接]: https://pan.quark.cn/s/d6bc5d8829a6
+  - vits模型下载地址：[点击这里](https://pan.quark.cn/s/d6bc5d8829a6) 提取码：tyM6
 
-    提取码：tyM6
+    - 下载后请将模型以及配置文件放在./model-vits路径下
 
-    下载后请将模型以及配置文件放在./model-vits路径下
+      本模型来自up主“saya睡大觉中”
 
-    本模型来自up主“saya睡大觉中”
+- 自行部署项目时，使用下面命令以安装模块，注意：pip安装的torch可能为cpu版本，请按照torch官网的安装方式安装对应的cuda版本，如果出现模块兼容性问题，请使用python3.9.6
 
-    
+ ```shell
+  pip install -r requirements.txt
+ ```
 
-    
+- 硬件需求
+  - 16g内存
+  - 可选：英伟达6G以上显卡
+  - 注：使用cpu进行部署时需要32位gcc编译器，具体问题请自行查阅ChatGLM项目对应的issue以及网上搜索
+
+- 本项目开发时使用的是python嵌入式包开发，所以方便打包成“懒人包”，懒人包下载地址：
+

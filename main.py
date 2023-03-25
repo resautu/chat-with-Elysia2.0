@@ -1,9 +1,9 @@
+sys.path.append('./')
 import gradio as gr
 import webbrowser
 import argparse
+import sys
 from parse import Parse
-def test(file):
-    print(file.name)
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--device', type=str, default='cpu')
