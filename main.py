@@ -1,8 +1,8 @@
-sys.path.append('./')
 import gradio as gr
 import webbrowser
 import argparse
 import sys
+sys.path.append('./')
 from parse import Parse
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
