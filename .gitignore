@@ -1,0 +1,12 @@
+chatglm-model/*.bin
+__pycache__
+test.py
+cli_demo.py
+log
+python3.9.6
+web_demo.py
+model-vits/*
+!model-vits/link-of-model.txt
+data/*
+!data/default.json
+test.json

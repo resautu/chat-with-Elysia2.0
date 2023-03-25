@@ -1,0 +1,1 @@
+python3.9.6\python.exe main.py & pause
