@@ -10,7 +10,7 @@
 
   - vits模型下载地址：
 
-    [模型连接]: https://pan.quark.cn/s/d6bc5d8829a6	"点击这里"
+    [模型连接]: https://pan.quark.cn/s/d6bc5d8829a6
 
     提取码：tyM6
 
