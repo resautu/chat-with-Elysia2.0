@@ -8,7 +8,7 @@
 
   - chatGLM-6B模型为清华大学开源，使用时请注意查看对应的使用需知，严格遵守使用规定
 
-    - 模型下载链接
+    - 模型下载链接 [点击这里](https://huggingface.co/THUDM) 请仔细阅读说明根据自己的硬件配置下载对应模型
     - 模型下载后请将模型及响应的文件放置在./chatglm-model路径下
 
   - vits模型下载地址：[点击这里](https://pan.quark.cn/s/d6bc5d8829a6) 提取码：tyM6
