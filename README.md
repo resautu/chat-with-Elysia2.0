@@ -34,10 +34,10 @@
   - 注：使用cpu进行部署时需要32位gcc编译器，部署细节与方法具体问题请自行查阅清华大学ChatGLM项目对应的issue以及网上搜索
 
 - 本项目开发时使用的是python嵌入式包开发，所以方便打包成“懒人包”，懒人包下载地址：
+  - 夸克网盘：[点击这里](https://pan.quark.cn/s/bbd0b4b13902) 提取码：8iRw
 
-​		夸克网盘：[点击这里](https://pan.quark.cn/s/bbd0b4b13902) 提取码：8iRw
+  - 百度网盘：[点击这里](https://pan.baidu.com/s/1oqJbs-83EKvcIWdzYJIxDQ ) 提取码：9j1u
 
-​		百度网盘：[点击这里](https://pan.baidu.com/s/1oqJbs-83EKvcIWdzYJIxDQ ) 提取码：9j1u
 
 ​		解压后便可以直接使用
 
