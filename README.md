@@ -11,11 +11,16 @@
     - 模型下载链接 [点击这里](https://huggingface.co/THUDM) 请仔细阅读说明根据自己的硬件配置下载对应模型
     - 模型下载后请将模型及响应的文件放置在./chatglm-model路径下
 
-  - vits模型下载地址：[点击这里](https://pan.quark.cn/s/d6bc5d8829a6) 提取码：tyM6
+  - vits模型下载地址：
 
+    - 夸克网盘：[点击这里](https://pan.quark.cn/s/d6bc5d8829a6) 提取码：tyM6
+
+    - 百度网盘：[点击这里](https://pan.baidu.com/s/1NqzKCPYSU68BeTNYE_PwHQ) 提取码：l5v0
+    
     - 下载后请将模型以及配置文件放在./model-vits路径下
-
+    
       本模型来自up主“saya睡大觉中”，严禁商用
+    
 
 - 自行部署项目时，使用下面命令以安装模块，注意：pip安装的torch可能为cpu版本，请按照torch官网的安装方式安装对应的cuda版本，如果出现模块兼容性问题，请使用python3.9.6
 
@@ -30,5 +35,9 @@
 
 - 本项目开发时使用的是python嵌入式包开发，所以方便打包成“懒人包”，懒人包下载地址：
 
-​		[点击这里](https://pan.quark.cn/s/bbd0b4b13902) 提取码：8iRw，解压后便可以直接使用
+​		夸克网盘：[点击这里](https://pan.quark.cn/s/bbd0b4b13902) 提取码：8iRw
+
+​		百度网盘：[点击这里](https://pan.baidu.com/s/1oqJbs-83EKvcIWdzYJIxDQ ) 提取码：9j1u
+
+​		解压后便可以直接使用
 
