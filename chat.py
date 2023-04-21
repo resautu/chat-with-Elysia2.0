@@ -29,11 +29,18 @@ class GenerateText:
     def getText(self, text : str, max_length, top_p, temperature) -> str:
         try:
             response, self.history = self.model.chat(self.tokenizer, text, history=self.history, max_length=max_length, top_p=top_p, temperature=temperature)
-        except:
+        except Exception as e:
+            logging.error(e)
             logging.error('interaction with chat error!!')
             return '好像出错了...'
         self.message_list.append({"user": text, "chater" : response})
         return response
+    """
+    def getText(self, text : str, max_length, top_p, temperature) -> str:
+        response, self.history = self.model.chat(self.tokenizer, text, history=self.history, max_length=max_length, top_p=top_p, temperature=temperature)
+        self.message_list.append({"user": text, "chater" : response})
+        return response
+    """
 #if __name__ == '__main__':
 #    gt = GenerateText()
 #    print(gt.getText('请做一下自我介绍'))

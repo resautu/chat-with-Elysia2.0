@@ -49,7 +49,7 @@ class GenerateSound:
         if not len(text):
             return "输入文本不能为空", None, None
         text = text.replace('\n', ' ').replace('\r', '').replace(" ", "")
-        if len(text) > 100 and limitation:
+        if len(text) > 150 and limitation:
             return f"输入文字过长！{len(text)}>100", None, None
         if language == 0:
             text = f"[ZH]{text}[ZH]"
