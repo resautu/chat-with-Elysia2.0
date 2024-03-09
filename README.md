@@ -12,14 +12,15 @@
     - 模型下载后请将模型及响应的文件放置在./chatglm-model路径下
 
   - vits模型下载地址：
+    - B站视频演示模型来自up主“saya睡大觉中”，严禁商用
+      - 夸克网盘：[点击这里](https://pan.quark.cn/s/b08dda94e13a) 提取码：CKqM
 
-    - 夸克网盘：[点击这里](https://pan.quark.cn/s/b08dda94e13a) 提取码：CKqM
-
-    - 百度网盘：[点击这里](https://pan.baidu.com/s/1NqzKCPYSU68BeTNYE_PwHQ) 提取码：l5v0
+      - 百度网盘：[点击这里](https://pan.baidu.com/s/1NqzKCPYSU68BeTNYE_PwHQ) 提取码：l5v0
+    
+    - 我自训练模型（效果更佳），严禁商用：
+      - 夸克网盘：[点击这里](https://pan.quark.cn/s/c50a28bd593b) 提取码：GBNy
     
     - 下载后请将模型以及配置文件放在./model-vits路径下
-    
-      本模型来自up主“saya睡大觉中”，严禁商用
     
 
 - 自行部署项目时，使用下面命令以安装模块，注意：pip安装的torch可能为cpu版本，请按照torch官网的安装方式安装对应的cuda版本，如果出现模块兼容性问题，请使用python3.9.6
